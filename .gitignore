@@ -1,0 +1,16 @@
+# Configurações locais e credenciais
+config.local.php
+.env
+.env.*
+!.env.example
+
+# Arquivos enviados por usuários
+uploads/*
+!uploads/.gitkeep
+
+# Arquivos temporários e de sistema
+*.log
+.DS_Store
+Thumbs.db
+.vscode/
+.idea/
